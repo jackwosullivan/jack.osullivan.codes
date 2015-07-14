@@ -1,0 +1,29 @@
+body {
+/*  background: url('http://jack.osullivan.codes/img/macbook.jpg') no-repeat 50% 50% fixed;
+  background-size: cover; */
+}
+.homepage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('http://jack.osullivan.codes/img/macbook-min.jpg') no-repeat 50% 50% fixed;
+  background-size: cover;
+}
+.content {
+  background-color: rgba(0,0,0,0.5);
+  text-align: center;
+  margin: 20% inherit;
+  h1 {
+    color: white;
+    font-weight: 200;
+    padding: 0.5em 0 0 0;
+  }
+  h2 {
+    color: white;
+    font-size: 2em;
+    font-weight: 300;
+    padding: 0 0 0.5em 0;
+  }
+}
